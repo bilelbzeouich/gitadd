@@ -9,8 +9,8 @@
     "deploy": "yarn build && npx thirdweb@latest upload dist"
   },
   "dependencies": {
-    "@thirdweb-dev/react": "^3.16.5",
-    "@thirdweb-dev/sdk": "^3.10.67",
+    "@thirdweb-dev/react": "^4.9.4",
+    "@thirdweb-dev/sdk": "^4.0.99",
     "ethers": "^5.7.2",
     "ganache": "^7.9.2",
     "react": "^18.2.0",
@@ -18,10 +18,10 @@
     "react-router-dom": "^6.22.1"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^2",
+    "@vitejs/plugin-react": "^4",
     "autoprefixer": "^10.4.13",
-    "postcss": "^8.4.19",
+    "postcss": "^8.5.1",
     "tailwindcss": "^3.2.4",
-    "vite": "^3"
+    "vite": "^6"
   }
 }
